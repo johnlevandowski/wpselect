@@ -4,7 +4,7 @@
 	Author: John Levandowski
 	Author URI: http://wpselect.com/
  
-	Version: 1.9
+	Version: 0.9.0
  
 	Tags: black, orange, white, one-column, two-columns, three-columns, fixed-width, custom-menu, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
  
@@ -33,6 +33,7 @@
 		- Post Info & Meta
 		- Column Classes
 		- Miscellaneous
+		- WPselect Adsense Widget Areas
 	05 Menus
 		- Primary Navigation Extras
 	06 Headings
@@ -495,10 +496,6 @@ h2 a:visited,
 	margin: 0;
 }
 
-.entry-content {
-	overflow: hidden;
-}
-
 .entry-content,
 .entry-content p {
 	line-height: 1.625;
@@ -683,6 +680,46 @@ p.pages,
 	overflow: hidden;
 	padding: 32px;
 	padding: 2rem;
+}
+
+/* 04h - WPselect Adsense Widget Areas */
+
+.wpselect_before_content_sidebar_wrap .widget {
+	padding-bottom: 40px;
+	padding-bottom: 2.5rem;
+	text-align: center;
+}
+
+.wpselect_after_post .widget {
+	margin-bottom: 80px;
+	margin-bottom: 5rem;
+	text-align: center;
+}
+
+.wpselect_before_post_content .widget {
+	float: left;
+	padding-bottom: 10px;
+	padding-bottom: 0.625rem;
+	padding-right: 24px;
+	padding-right: 1.5rem;
+}
+
+.content-sidebar .wpselect_before_post_content .widget,
+.content-sidebar-sidebar .wpselect_before_post_content .widget {
+	float: right;
+	padding-left: 24px;
+	padding-left: 1.5rem;
+	padding-right: 0px;
+	padding-right: 0rem;
+}
+
+.wpselect_after_post_content .widget {
+	clear: both;
+	margin-bottom: 26px;
+	margin-bottom: 1.625rem;
+	margin-top: 26px;
+	margin-top: 1.625rem;
+	text-align: center;
 }
 
 

@@ -3,6 +3,12 @@
 Github project link: https://github.com/johnlevandowski/wpselect
 
 
+=== Changelog ===
+
+* Add Adsense Widget Areas
+* Based on https://github.com/bgardner/genesis-sample
+
+
 === Developer Info ===
 
 Name: John Levandowski
