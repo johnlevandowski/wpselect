@@ -34,3 +34,15 @@ function wpselect_related_posts() {
 		related_posts();
 	}
 }
+
+/**
+ * Customize post info
+ * genesis/lib/structure/post.php
+ */
+add_filter( 'genesis_post_info', 'wpselect_post_info' );
+function wpselect_post_info($post_info) {
+if (!is_page()) {
+    $post_info = 'Posted on [post_date] [post_edit] [post_comments]';
+    return $post_info;
+	}
+}
