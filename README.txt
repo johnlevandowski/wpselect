@@ -5,6 +5,7 @@ Github project link: https://github.com/johnlevandowski/wpselect
 
 === Changelog ===
 
+* Add YARPP Related Posts
 * Add Adsense Widget Areas
 * Based on https://github.com/bgardner/genesis-sample
 
