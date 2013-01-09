@@ -5,6 +5,7 @@ Github project link: https://github.com/johnlevandowski/wpselect
 
 === Changelog ===
 
+* Customize footer
 * Customize post info
 * Add YARPP Related Posts
 * Add Adsense Widget Areas
