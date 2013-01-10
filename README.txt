@@ -5,6 +5,7 @@ Github project link: https://github.com/johnlevandowski/wpselect
 
 === Changelog ===
 
+* Customize Archive and 404 Templates
 * Customize post excerpt length and more link
 * Customize footer
 * Customize post info
