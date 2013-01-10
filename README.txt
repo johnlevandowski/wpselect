@@ -5,6 +5,7 @@ Github project link: https://github.com/johnlevandowski/wpselect
 
 === Changelog ===
 
+* Add splash of color
 * Customize Archive and 404 Templates
 * Customize post excerpt length and more link
 * Customize footer
