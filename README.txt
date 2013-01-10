@@ -5,11 +5,12 @@ Github project link: https://github.com/johnlevandowski/wpselect
 
 === Changelog ===
 
+* Customize post excerpt length and more link
 * Customize footer
 * Customize post info
 * Add YARPP Related Posts
 * Add Adsense Widget Areas
-* Based on https://github.com/bgardner/genesis-sample
+* Based on https://github.com/copyblogger/genesis-sample
 
 
 === Developer Info ===

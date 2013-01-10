@@ -65,3 +65,25 @@ function wpselect_do_footer() {
 	<a title="Image Attribution" href="http://wpselect.com/image-attribution/">Image Attribution</a></p>
     </div><?php
 }
+
+/**
+ * Customize length of post excerpts
+ * default is 55
+ */
+add_filter( 'excerpt_length', 'wpselect_excerpt_length' );
+function wpselect_excerpt_length($length) {
+    return 60;
+}
+
+/** Customize more link of post excerpts */
+add_filter('excerpt_more', 'wpselect_excerpt_more');
+function wpselect_excerpt_more($more) {
+	global $post;
+	return ' ... <a href="' . get_permalink($post->ID) . '">Continue Reading</a>';
+}
+
+/** Customize jpeg quality */
+add_filter( 'jpeg_quality', 'wpselect_jpeg_quality' );
+function wpselect_jpeg_quality($quality) {
+	return (int)79;
+}
