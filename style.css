@@ -694,6 +694,12 @@ p.pages,
 	text-align: center;
 }
 
+.wpselect_before_loop .widget {
+	margin-bottom: 48px;
+	margin-bottom: 3rem;
+	text-align: center;
+}
+
 .wpselect_after_post .widget {
 	margin-bottom: 80px;
 	margin-bottom: 5rem;

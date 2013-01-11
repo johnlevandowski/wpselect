@@ -26,6 +26,27 @@ function wpselect_before_content_sidebar_wrap() {
 }
 
 /**
+ * Before Loop Widget Area
+ * Displays on all pages except single posts
+ */
+genesis_register_sidebar(
+	array(
+		'id'			=> 'wpselect_before_loop',
+		'name'			=> __( 'Before Loop', 'genesis' ),
+		'description'	=> __( 'Displays on all pages except single posts.', 'genesis' ),
+	)
+);
+
+add_action( 'genesis_before_loop', 'wpselect_before_loop', 1 );
+function wpselect_before_loop() {
+	if ( !is_single() ) {
+		genesis_widget_area( 'wpselect_before_loop', array(
+		'before' => '<div class="wpselect_before_loop widget-area">',
+		) );
+	}
+}
+
+/**
  * After First Post Widget Area
  * Displays on archive pages after first post
  */
@@ -42,6 +63,28 @@ function wpselect_after_post() {
 	global $loop_counter; //important, this makes the variable available within this function.
 	if ( !is_singular() && $loop_counter == 0 ) {
 		genesis_widget_area( 'wpselect_after_post', array(
+		'before' => '<div class="wpselect_after_post widget-area">',
+		) );
+	}
+}
+
+/**
+ * After Second Post Widget Area
+ * Displays on archive pages after second post
+ */
+genesis_register_sidebar(
+	array(
+		'id'			=> 'wpselect_after_post_2',
+		'name'			=> __( 'After Second Post', 'genesis' ),
+		'description'	=> __( 'Displays on archive pages after second post.', 'genesis' ),
+	)
+);
+
+add_action( 'genesis_after_post', 'wpselect_after_post_2' );
+function wpselect_after_post_2() {
+	global $loop_counter; //important, this makes the variable available within this function.
+	if ( !is_singular() && $loop_counter == 1 ) {
+		genesis_widget_area( 'wpselect_after_post_2', array(
 		'before' => '<div class="wpselect_after_post widget-area">',
 		) );
 	}
