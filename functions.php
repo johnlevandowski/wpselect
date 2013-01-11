@@ -5,6 +5,7 @@ require_once( get_template_directory() . '/lib/init.php' );
 // Child theme (do not remove)
 define( 'CHILD_THEME_NAME', 'WPselect' );
 define( 'CHILD_THEME_URL', 'http://wpselect.com/' );
+define( 'CHILD_THEME_VERSION', filemtime( CHILD_DIR . '/style.css' ) );
 
 // Add Viewport meta tag for mobile browsers
 add_action( 'genesis_meta', 'sample_viewport_meta_tag' );

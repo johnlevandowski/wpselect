@@ -5,6 +5,7 @@ Github project link: https://github.com/johnlevandowski/wpselect
 
 === Changelog ===
 
+* Add child theme version for cache invalidation
 * Add splash of color
 * Customize Archive and 404 Templates
 * Customize post excerpt length and more link
@@ -12,7 +13,7 @@ Github project link: https://github.com/johnlevandowski/wpselect
 * Customize post info
 * Add YARPP Related Posts
 * Add Adsense Widget Areas
-* Based on https://github.com/copyblogger/genesis-sample
+* Forked from https://github.com/copyblogger/genesis-sample
 
 
 === Developer Info ===
