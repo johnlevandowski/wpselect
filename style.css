@@ -354,6 +354,7 @@ h2 a:visited,
 #wrap {
 	margin: 0 auto;
 	max-width: 1152px;
+	padding: 0 3%;
 }
 
 #inner {
@@ -427,7 +428,6 @@ h2 a:visited,
 .sidebar-content-sidebar #content-sidebar-wrap,
 .sidebar-sidebar-content #content,
 .sidebar-sidebar-content #content-sidebar-wrap,
-#footer .creds,
 #header .widget-area {
 	float: right;
 }
@@ -1094,12 +1094,12 @@ label {
 #footer .wrap {
 	border-top: 2px solid #1e1e1e;
 	overflow: hidden;
-	padding: 48px 0;
-	padding: 3rem 0;
+	padding: 24px 0;
+	padding: 1.5rem 0;
 }
 
 #footer .creds {
-	text-align: right;
+	text-align: center;
 }
 
 #footer .creds,
@@ -1303,30 +1303,14 @@ p.wp-caption-text {
 14 Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
-/* Desktops, laptops and iPads (landscape) ----------- */
-
-@media only screen and (max-width: 1024px) {
-
-	#wrap {
-		max-width: 960px;
-	}	
-
-}
-
 /* iPads (portrait) ----------- */
 
 @media only screen and (max-width: 768px) {
-
-	#wrap {
-		padding: 0 5%;
-	}
 
 	.footer-widgets-1,
 	.footer-widgets-2,
 	.footer-widgets-3,
 	.wrap,
-	#footer .creds,
-	#footer .gototop,
 	#header .widget-area,
 	#inner,
 	#title-area,
@@ -1338,8 +1322,6 @@ p.wp-caption-text {
 	}
 
 	.genesis-nav-menu li,
-	#footer .creds,
-	#footer .gototop,
 	#header ul.genesis-nav-menu,
 	#header .search-form {
 		float: none;
@@ -1347,8 +1329,6 @@ p.wp-caption-text {
 
 	.genesis-nav-menu,
 	#description,
-	#footer .creds,
-	#footer .gototop,
 	#header .search-form,
 	#title,
 	#title-area {
@@ -1373,11 +1353,6 @@ p.wp-caption-text {
 
 	.genesis-nav-menu li.right {
 		display: none;
-	}
-
-	#footer .wrap {
-		padding: 24px 0;
-		padding: 1.5rem 0;
 	}
 
 	.footer-widgets-1,

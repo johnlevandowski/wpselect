@@ -5,6 +5,7 @@ Github project link: https://github.com/johnlevandowski/wpselect
 
 === Changelog ===
 
+* Simplify responsive css
 * Add child theme version for cache invalidation
 * Add splash of color
 * Customize Archive and 404 Templates
