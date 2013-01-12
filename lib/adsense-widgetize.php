@@ -131,3 +131,16 @@ function wpselect_after_post_content() {
 		) );
 	}
 }
+
+/** AdSense Section Targeting */
+add_action( 'genesis_before_content', 'wpselect_ad_section_before_content' );
+function wpselect_ad_section_before_content() { ?>
+	<!-- google_ad_section_start -->
+<?php
+}
+
+add_action( 'genesis_after_content', 'wpselect_ad_section_after_content' );
+function wpselect_ad_section_after_content() { ?>
+	<!-- google_ad_section_end -->
+<?php
+}
