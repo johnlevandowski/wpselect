@@ -5,6 +5,7 @@ Github project link: https://github.com/johnlevandowski/wpselect
 
 === Changelog ===
 
+* Add table css
 * Add Google Custom Search
 * Simplify responsive css
 * Add child theme version for cache invalidation

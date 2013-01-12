@@ -39,6 +39,7 @@
 		- Primary Navigation Extras
 	06 Headings
 	07 Lists
+		- Tables
 	08 Post Navigation
 	09 Comments
 	10 Sidebars
@@ -736,6 +737,7 @@ p.pages,
 
 .wpselect-yarpp {
 	background-color: #f5f5f5;
+	clear: both;
 	margin-bottom: 26px;
 	margin-bottom: 1.625rem;
 	margin-top: 26px;
@@ -946,6 +948,32 @@ h6,
 .entry-content ol ol,
 .entry-content ul ul {
 	margin-bottom: 0;
+}
+
+/* 07a - Tables ----------- */
+
+.entry-content table {
+	border-bottom: 1px solid #ccc;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin-bottom: 26px;
+	margin-bottom: 1.625rem;
+	width: 100%;
+}
+
+.entry-content tr {
+	border-top: 1px solid #ccc;
+}
+
+.entry-content th {
+	font-style: normal;
+	font-weight: 700;
+}
+
+.entry-content th,
+.entry-content td {
+	padding: 4px 10px 4px 0;
+	text-align: left;
 }
 
 
