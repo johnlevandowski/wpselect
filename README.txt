@@ -5,6 +5,7 @@ Github project link: https://github.com/johnlevandowski/wpselect
 
 === Changelog ===
 
+* Remove support for custom header and background
 * Add Landing Page Template
 * Add table css
 * Add Google Custom Search

@@ -437,7 +437,6 @@ h2 a:visited,
 
 #header {
 	border-bottom: 2px solid #1e1e1e;
-	min-height: 120px;
 	overflow: hidden;
 	padding-bottom: 32px;
 	padding-bottom: 2rem;
@@ -499,6 +498,10 @@ h2 a:visited,
 
 .page .entry {
 	margin: 0;
+}
+
+.entry-content h2 {
+	clear: both;
 }
 
 .entry-content,
@@ -754,7 +757,6 @@ p.pages,
 }
 
 .wpselect-landing #header {
-	min-height: 50px;
 	padding-bottom: 0;
 }
 
