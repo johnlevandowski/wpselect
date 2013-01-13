@@ -355,7 +355,7 @@ h2 a:visited,
 #wrap {
 	margin: 0 auto;
 	max-width: 1152px;
-	padding: 0 3%;
+	padding: 0 2.5%;
 }
 
 #inner {
@@ -745,6 +745,27 @@ p.pages,
 	overflow: hidden;
 	padding: 32px;
 	padding: 2rem;
+}
+
+/* 04j -  WPselect Landing Page */
+
+.wpselect-landing #wrap {
+	max-width: 750px;
+}
+
+.wpselect-landing #header {
+	min-height: 50px;
+	padding-bottom: 0;
+}
+
+.wpselect-landing #title-area {
+	width: 100%;
+}
+
+.wpselect-landing #title {
+	margin: 8px;
+	margin: 0.5rem;
+	text-align: center;
 }
 
 

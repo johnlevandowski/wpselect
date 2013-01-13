@@ -5,6 +5,7 @@ Github project link: https://github.com/johnlevandowski/wpselect
 
 === Changelog ===
 
+* Add Landing Page Template
 * Add table css
 * Add Google Custom Search
 * Simplify responsive css
