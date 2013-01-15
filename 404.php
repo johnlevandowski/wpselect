@@ -1,7 +1,7 @@
 <?php
 /** Remove default loop **/
 add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
-remove_action( 'genesis_before_content_sidebar_wrap', 'wpselect_before_content_sidebar_wrap' );
+wpselect_remove_adsense_actions();
 remove_action( 'genesis_loop', 'genesis_do_loop' );
 add_action( 'genesis_loop', 'wpselect_404' );
 function wpselect_404() { ?>

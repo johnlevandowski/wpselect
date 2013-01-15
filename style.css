@@ -1145,11 +1145,12 @@ label {
 #footer .wrap {
 	border-top: 2px solid #1e1e1e;
 	overflow: hidden;
-	padding: 24px 0;
-	padding: 1.5rem 0;
+	padding: 8px 0;
+	padding: 0.5rem 0;
 }
 
 #footer .creds {
+	line-height: 1.25;
 	text-align: center;
 }
 

@@ -8,7 +8,7 @@ Github project link: https://github.com/johnlevandowski/wpselect
 * Remove support for custom header and background
 * Add Landing Page Template
 * Add table css
-* Add Google Custom Search
+* Add Google Custom Search http://wpselect.com/blog/add-google-custom-search-to-genesis-framework-theme/
 * Simplify responsive css
 * Add child theme version for cache invalidation
 * Add splash of color

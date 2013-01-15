@@ -144,3 +144,13 @@ function wpselect_ad_section_after_content() { ?>
 	<!-- google_ad_section_end -->
 <?php
 }
+
+/** Remove all AdSense Actions */
+function wpselect_remove_adsense_actions() {
+	remove_action( 'genesis_before_content_sidebar_wrap', 'wpselect_before_content_sidebar_wrap' );
+	remove_action( 'genesis_before_loop', 'wpselect_before_loop', 1 );
+	remove_action( 'genesis_after_post', 'wpselect_after_post' );
+	remove_action( 'genesis_after_post', 'wpselect_after_post_2' );
+	remove_action( 'genesis_before_post_content', 'wpselect_before_post_content' );
+	remove_action( 'genesis_after_post_content', 'wpselect_after_post_content', 1 );
+}

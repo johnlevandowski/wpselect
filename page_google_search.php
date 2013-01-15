@@ -8,9 +8,8 @@
  * Force full-width layout
  */
 add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
-remove_action( 'genesis_before_loop', 'wpselect_before_loop', 1 );
+wpselect_remove_adsense_actions();
 remove_action( 'genesis_before_loop', 'genesis_do_breadcrumbs' );
-remove_action( 'genesis_before_content_sidebar_wrap', 'wpselect_before_content_sidebar_wrap' );
 
 /**
  * Add Google Custom Search Engine javascript to header
