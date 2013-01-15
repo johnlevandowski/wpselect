@@ -1338,6 +1338,13 @@ img.alignleft,
 	margin: 0 1.5rem 1.5rem 0;
 }
 
+.post-image {
+	border: 1px solid #ccc;
+	box-shadow: 3px 7px 7px #ccc;
+	-moz-box-shadow: 3px 7px 7px #ccc;
+	-webkit-box-shadow: 3px 7px 7px #ccc;
+}
+
 img.alignright,
 .wp-caption.alignright {
 	display: inline;
