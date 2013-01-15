@@ -76,12 +76,19 @@ function wpselect_excerpt_length($length) {
 /** Customize more link of post excerpts */
 add_filter('excerpt_more', 'wpselect_excerpt_more');
 function wpselect_excerpt_more($more) {
-	global $post;
-	return ' ... <a href="' . get_permalink($post->ID) . '">Continue Reading</a>';
+	return ' &hellip;';
 }
 
 /** Customize jpeg quality */
 add_filter( 'jpeg_quality', 'wpselect_jpeg_quality' );
 function wpselect_jpeg_quality($quality) {
 	return (int)79;
+}
+
+/** Add read more link to post on all archive pages */
+add_action( 'genesis_post_content', 'wpselect_read_more_post_content', 15 );
+function wpselect_read_more_post_content() {
+	if ( ! is_singular() ) {
+	echo '<p class="wpselect-read-more"><a href="' . get_permalink() . '">Continue Reading &rarr;</a></p>';
+	}
 }

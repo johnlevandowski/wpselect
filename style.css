@@ -690,6 +690,10 @@ p.pages,
 	padding: 2rem;
 }
 
+.wpselect-read-more {
+	text-align: right;
+}
+
 /* 04h - WPselect Adsense Widget Areas */
 
 .wpselect_before_content_sidebar_wrap .widget {
