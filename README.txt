@@ -5,6 +5,7 @@ Github project link: https://github.com/johnlevandowski/wpselect
 
 === Changelog ===
 
+* Shorten header, title, and menu height
 * Featured image css
 * Add read more link to post on all archive pages
 * Remove support for custom header and background

@@ -5,6 +5,25 @@
  */
 
 /**
+ * After Header Widget Area
+ * Displays on all pages
+ */
+genesis_register_sidebar(
+	array(
+		'id'			=> 'wpselect_after_header',
+		'name'			=> __( 'After Header', 'genesis' ),
+		'description'	=> __( 'Displays on all pages.', 'genesis' ),
+	)
+);
+
+add_action( 'genesis_after_header', 'wpselect_after_header', 15 );
+function wpselect_after_header() {
+	genesis_widget_area( 'wpselect_after_header', array(
+	'before' => '<div class="wpselect_after_header widget-area">',
+	) );
+}
+
+/**
  * Before Content Sidebar Wrap Widget Area
  * Displays on all pages except single posts
  */
@@ -147,6 +166,7 @@ function wpselect_ad_section_after_content() { ?>
 
 /** Remove all AdSense Actions */
 function wpselect_remove_adsense_actions() {
+	remove_action( 'genesis_after_header', 'wpselect_after_header', 15 );
 	remove_action( 'genesis_before_content_sidebar_wrap', 'wpselect_before_content_sidebar_wrap' );
 	remove_action( 'genesis_before_loop', 'wpselect_before_loop', 1 );
 	remove_action( 'genesis_after_post', 'wpselect_after_post' );

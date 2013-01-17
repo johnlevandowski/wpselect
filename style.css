@@ -355,7 +355,7 @@ h2 a:visited,
 #wrap {
 	margin: 0 auto;
 	max-width: 1152px;
-	padding: 0 2.5%;
+	padding: 0 2%;
 }
 
 #inner {
@@ -438,14 +438,14 @@ h2 a:visited,
 #header {
 	border-bottom: 2px solid #1e1e1e;
 	overflow: hidden;
-	padding-bottom: 32px;
-	padding-bottom: 2rem;
+	padding-bottom: 16px;
+	padding-bottom: 1rem;
 }
 
 #title {
 	line-height: 1;
-	margin: 40px 0 8px;
-	margin: 2.5rem 0 0.5rem;
+	margin: 16px 0 8px;
+	margin: 1rem 0 0.5rem;
 }
 
 .header-image #title {
@@ -696,6 +696,14 @@ p.pages,
 
 /* 04h - WPselect Adsense Widget Areas */
 
+.wpselect_after_header .widget {
+	border-bottom: 1px solid #ccc;
+	clear: both;
+	overflow: hidden;
+	padding: 16px 0 16px 16px;
+	padding: 1rem 0 1rem 1rem;
+}
+
 .wpselect_before_content_sidebar_wrap .widget {
 	padding-bottom: 40px;
 	padding-bottom: 2.5rem;
@@ -810,8 +818,8 @@ p.pages,
 
 .genesis-nav-menu a {
 	display: block;
-	padding: 24px 20px;
-	padding: 1.5rem 1.25rem;
+	padding: 16px 20px;
+	padding: 1rem 1.25rem;
 	position: relative;
 }
 
@@ -883,8 +891,8 @@ ul.genesis-nav-menu li.sfHover ul,
 
 .genesis-nav-menu li.right {
 	float: right;
-	padding: 24px 20px;
-	padding: 1.5rem 1.25rem;
+	padding: 16px 20px;
+	padding: 1rem 1.25rem;
 }
 
 .genesis-nav-menu li.right a {
@@ -1215,8 +1223,8 @@ textarea {
 
 #header .search-form {
 	float: right;
-	margin-top: 56px;
-	margin-top: 3.5rem;
+	margin-top: 32px;
+	margin-top: 2rem;
 	width: 100%;
 }
 
@@ -1396,16 +1404,6 @@ p.wp-caption-text {
 	#title,
 	#title-area {
 		text-align: center;
-	}
-
-	.genesis-nav-menu a {
-		padding: 20px 16px;
-		padding: 1.25rem 1rem;
-	}
-
-	#title {
-		margin: 16px 0;
-		margin: 1rem 0;
 	}
 
 	#header .search-form {
