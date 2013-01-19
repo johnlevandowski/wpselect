@@ -35,6 +35,7 @@
 		- Miscellaneous
 		- WPselect Adsense Widget Areas
 		- WPselect YARPP Related Posts
+		- WPselect Landing Page
 	05 Menus
 		- Primary Navigation Extras
 	06 Headings
@@ -60,7 +61,7 @@
 01 Import Fonts
 ---------------------------------------------------------------------------------------------------- */
 
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
 
 
 /*
@@ -236,7 +237,7 @@ h5,
 h6,
 .entry-title a,
 #title {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Oswald', sans-serif;
 }
 
 /* 03c - Font Size ----------- */

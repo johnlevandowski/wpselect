@@ -53,7 +53,7 @@ remove_action( 'genesis_footer', 'genesis_do_footer' );
 add_action( 'genesis_footer', 'wpselect_do_footer' );
 function wpselect_do_footer() {
     ?><div class="creds">
-    <p>&copy; Copyright <?php echo date( 'Y' ); ?> <a title="wpselect.com" href="http://wpselect.com/">wpselect.com</a></p>
+    <p>&copy; Copyright 2010-<?php echo date( 'Y' ); ?> <a title="wpselect.com" href="http://wpselect.com/">wpselect.com</a></p>
 	<p>Powered by <a title="Genesis Framework" href="http://wpselect.com/go/genesis/">Genesis</a>, 
 	<a title="Hosting by HostGator" href="http://wpselect.com/go/hostgator/">HostGator</a>, 
 	and <a title="WordPress" href="http://wordpress.org/">WordPress</a></p>
