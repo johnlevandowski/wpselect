@@ -1039,7 +1039,7 @@ h6,
 
 .navigation li a:hover,
 .navigation li.active a {
-	background-color: #4f814b;
+	background-color: #12c;
 }
 
 
@@ -1251,7 +1251,7 @@ button:hover,
 input:hover[type="button"],
 input:hover[type="submit"],
 .btn:hover {
-	background-color: #4f814b;
+	background-color: #12c;
 }
 
 .enews input[type="submit"],
