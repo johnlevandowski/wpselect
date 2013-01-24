@@ -171,7 +171,6 @@ h4.widgettitle a,
 input,
 .author,
 .date,
-.genesis-nav-menu a,
 .genesis-nav-menu li li a,
 .genesis-nav-menu li li a:link,
 .genesis-nav-menu li li a:visited,
@@ -189,8 +188,9 @@ h2 a:hover {
 .genesis-nav-menu li a:hover,
 .genesis-nav-menu li:hover a,
 .genesis-nav-menu li li a:hover,
-.genesis-nav-menu .current-menu-item a {
-	color: #093;
+.genesis-nav-menu .current-menu-item a,
+.genesis-nav-menu .highlight-menu-item a:hover {
+	color: #4f814b;
 }
 
 .post-info,
@@ -211,8 +211,8 @@ button,
 input[type="button"],
 input[type="submit"],
 .btn,
+.genesis-nav-menu a,
 .genesis-nav-menu .highlight-menu-item a,
-.genesis-nav-menu .highlight-menu-item a:hover,
 .navigation li a,
 .navigation li a:hover,
 .navigation li.active a,
@@ -698,7 +698,8 @@ p.pages,
 /* 04h - WPselect Adsense Widget Areas */
 
 .wpselect_after_header .widget {
-	border-bottom: 1px solid #ccc;
+	background-color: #4f814b;
+	border-bottom: 1px solid #274521;
 	clear: both;
 	overflow: hidden;
 	padding: 16px 0 16px 16px;
@@ -802,7 +803,8 @@ p.pages,
 
 .genesis-nav-menu.menu-primary,
 .genesis-nav-menu.menu-secondary {
-	border-bottom: 1px solid #ccc;
+	background-color: #4f814b;
+	border-bottom: 1px solid #274521;
 }
 
 .genesis-nav-menu ul {
@@ -824,23 +826,26 @@ p.pages,
 	position: relative;
 }
 
-.genesis-nav-menu li.highlight-menu-item {
-	margin-left: 20px;
-	margin-left: 1.25rem;
+.genesis-nav-menu .current-menu-item a {
+	background-color: #dcdbd6;
+}
+
+.genesis-nav-menu li:hover {
+	background-color: #dcdbd6;
 }
 
 .genesis-nav-menu .highlight-menu-item a {
-	background-color: #1e1e1e;
+	background-color: #274521;
 }
 
 .genesis-nav-menu .highlight-menu-item a:hover {
-	background-color: #093;
+	background-color: #dcdbd6;
 }
 
 .genesis-nav-menu li li a,
 .genesis-nav-menu li li a:link,
 .genesis-nav-menu li li a:visited {
-	background-color: #fff;
+	background-color: #dcdbd6;
 	border: 1px solid #ccc;
 	border-top: none;
 	padding: 20px;
@@ -1034,7 +1039,7 @@ h6,
 
 .navigation li a:hover,
 .navigation li.active a {
-	background-color: #093;
+	background-color: #4f814b;
 }
 
 
@@ -1246,7 +1251,7 @@ button:hover,
 input:hover[type="button"],
 input:hover[type="submit"],
 .btn:hover {
-	background-color: #093;
+	background-color: #4f814b;
 }
 
 .enews input[type="submit"],
