@@ -171,9 +171,6 @@ h4.widgettitle a,
 input,
 .author,
 .date,
-.genesis-nav-menu li li a,
-.genesis-nav-menu li li a:link,
-.genesis-nav-menu li li a:visited,
 .post-comments,
 #title a,
 #title a:hover {
@@ -183,14 +180,6 @@ input,
 a,
 h2 a:hover {
 	color: #12c;
-}
-
-.genesis-nav-menu li a:hover,
-.genesis-nav-menu li:hover a,
-.genesis-nav-menu li li a:hover,
-.genesis-nav-menu .current-menu-item a,
-.genesis-nav-menu .highlight-menu-item a:hover {
-	color: #3e6332;
 }
 
 .post-info,
@@ -212,12 +201,23 @@ input[type="button"],
 input[type="submit"],
 .btn,
 .genesis-nav-menu a,
+.genesis-nav-menu li li a,
+.genesis-nav-menu li li a:link,
+.genesis-nav-menu li li a:visited,
 .genesis-nav-menu .highlight-menu-item a,
 .navigation li a,
 .navigation li a:hover,
 .navigation li.active a,
 .navigation li.disabled {
 	color: #fff;
+}
+
+.genesis-nav-menu li a:hover,
+.genesis-nav-menu li:hover a,
+.genesis-nav-menu li li a:hover,
+.genesis-nav-menu .current-menu-item a,
+.genesis-nav-menu .highlight-menu-item a:hover {
+	color: #bbb;
 }
 
 /* 03b - Font Family ----------- */
@@ -698,8 +698,7 @@ p.pages,
 /* 04h - WPselect Adsense Widget Areas */
 
 .wpselect_after_header .widget {
-	background-color: #3e6332;
-	border-bottom: 1px solid #1e1e1e;
+	background-color: #2d2d2d;
 	clear: both;
 	overflow: hidden;
 	padding: 12px 0 12px 16px;
@@ -803,8 +802,8 @@ p.pages,
 
 .genesis-nav-menu.menu-primary,
 .genesis-nav-menu.menu-secondary {
-	background-color: #3e6332;
-	border-bottom: 1px solid #1e1e1e;
+	background-color: #2d2d2d;
+	border-bottom: 1px solid #2d2d2d;
 }
 
 .genesis-nav-menu ul {
@@ -826,27 +825,15 @@ p.pages,
 	position: relative;
 }
 
-.genesis-nav-menu .current-menu-item a {
-	background-color: #e1de6f;
-}
-
-.genesis-nav-menu li:hover {
-	background-color: #e1de6f;
-}
-
 .genesis-nav-menu .highlight-menu-item a {
-	background-color: #1e1e1e;
-}
-
-.genesis-nav-menu .highlight-menu-item a:hover {
-	background-color: #e1de6f;
+	background-color: #000;
 }
 
 .genesis-nav-menu li li a,
 .genesis-nav-menu li li a:link,
 .genesis-nav-menu li li a:visited {
-	background-color: #e1de6f;
-	border: 1px solid #ccc;
+	background-color: #2d2d2d;
+	border: 1px solid #2d2d2d;
 	border-top: none;
 	padding: 20px;
 	padding: 1.25rem;
@@ -1030,7 +1017,7 @@ h6,
 .navigation li a:hover,
 .navigation li.active a,
 .navigation li.disabled {
-	background-color: #1e1e1e;
+	background-color: #2d2d2d;
 	border-radius: 3px;
 	cursor: pointer;
 	padding: 12px;
