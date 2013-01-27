@@ -167,6 +167,7 @@ a:hover,
 body,
 h2 a,
 h2 a:visited,
+.entry-content h2 a:hover,
 h4.widgettitle a,
 input,
 .author,
@@ -178,7 +179,8 @@ input,
 }
 
 a,
-h2 a:hover {
+h2 a:hover,
+.entry-content h2 a {
 	color: #12c;
 }
 
@@ -344,6 +346,10 @@ h2 a:visited,
 .widgettitle a,
 #title a {
 	text-decoration: none;
+}
+
+.entry-content h2 a {
+	text-decoration: underline;
 }
 
 

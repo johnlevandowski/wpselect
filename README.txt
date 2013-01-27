@@ -5,6 +5,7 @@ Github project link: https://github.com/johnlevandowski/wpselect
 
 === Changelog ===
 
+* Entry content h2 link color
 * Add Nav Menu Color
 * Shorten header, title, and menu height
 * Featured image css
