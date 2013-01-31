@@ -5,6 +5,7 @@ Github project link: https://github.com/johnlevandowski/wpselect
 
 === Changelog ===
 
+* Add eNews css
 * Entry content h2 link color
 * Add Nav Menu Color
 * Shorten header, title, and menu height

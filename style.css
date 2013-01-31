@@ -48,6 +48,7 @@
 		- Footer Widgets
 	12 Forms & Buttons
 		- Gravity Forms
+		- eNews
 	13 Images & Captions
 	14 Media Queries
 		- max-width: 1024px
@@ -1247,7 +1248,6 @@ input:hover[type="submit"],
 	background-color: #12c;
 }
 
-.enews input[type="submit"],
 .search-form input[type="submit"] {
 	border: 0;
 	clip: rect(0, 0, 0, 0);
@@ -1284,6 +1284,29 @@ div.gform_wrapper li,
 div.gform_wrapper form li {
 	margin: 16px 0 0;
 	margin: 1rem 0 0;
+}
+
+/* 12b - eNews ----------- */
+
+.enews form {
+	text-align: center;
+}
+
+.enews input[type="text"] {
+	margin-bottom: 8px;
+	margin-bottom: 0.5rem;
+	max-width: 300px;
+}
+
+.enews-widget p {
+	margin-bottom: 16px;
+	margin-bottom: 1rem;
+}
+
+#content .enews-widget {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 400px;
 }
 
 
