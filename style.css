@@ -1130,7 +1130,6 @@ label {
 }
 
 .sidebar .widget {
-	border-bottom: 1px solid #ccc;
 	margin-bottom: 32px;
 	margin-bottom: 2rem;
 	padding-bottom: 32px;
@@ -1312,19 +1311,21 @@ div.gform_wrapper form li {
 	background: url(images/enews-ribbon.png) no-repeat top left;
 	margin: -10px;
 	overflow: hidden;
-	padding: 50px 20px 30px;
+	padding: 50px 30px 30px;
 	text-align: center;
 }
 
 .enews h4 {
-	margin: 0 56px 30px;
-	margin: 0 3.5rem 1.875rem;
+	margin: 0 40px 30px;
 }
 
 .enews #subbox {
 	margin-bottom: 8px;
 	margin-bottom: 0.5rem;
-	max-width: 300px;
+}
+
+.enews #subbutton {
+	width: 100%;
 }
 
 
