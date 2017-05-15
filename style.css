@@ -809,8 +809,8 @@ p.pages,
 
 .genesis-nav-menu.menu-primary,
 .genesis-nav-menu.menu-secondary {
-	background-color: #2d2d2d;
-	border-bottom: 1px solid #2d2d2d;
+	background-color: #12c;
+	border-bottom: 1px solid #12c;
 }
 
 .genesis-nav-menu ul {
@@ -839,8 +839,8 @@ p.pages,
 .genesis-nav-menu li li a,
 .genesis-nav-menu li li a:link,
 .genesis-nav-menu li li a:visited {
-	background-color: #2d2d2d;
-	border: 1px solid #2d2d2d;
+	background-color: #12c;
+	border: 1px solid #12c;
 	border-top: none;
 	padding: 20px;
 	padding: 1.25rem;
@@ -1342,6 +1342,7 @@ video {
 
 img {
 	height: auto;
+	width: auto;
 }
 
 .alignleft .avatar {
